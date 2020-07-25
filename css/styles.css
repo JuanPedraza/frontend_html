@@ -1,0 +1,36 @@
+/* Colores: 
+#575fcf : DARK PERIWINKLE
+#3c40c6 : FREE SPEECH BLUE
+#ffdd59 : YRIEL YELLOW
+#ffd32a : VIBRANT YELLOW */
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav
+{
+    display: flex;
+    background-color: #575fcf;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+a:hover
+{
+    color: #ffdd59;
+}
