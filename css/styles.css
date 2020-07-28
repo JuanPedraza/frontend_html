@@ -1,15 +1,27 @@
 /* Colores: 
+
 #575fcf : DARK PERIWINKLE
 #3c40c6 : FREE SPEECH BLUE
 #ffdd59 : YRIEL YELLOW
 #ffd32a : VIBRANT YELLOW */
 
+/* Variables */
+
+/* Acá van los valores que más se repitan, asignados como variables */
+
+
+
+/* Variables */
+
+
+/* Estilos para la barra de navegación  */
+
 html, body
 {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
 }
 
 nav
@@ -23,14 +35,95 @@ nav
 
 }
 
-a
+nav ul
 {
-    text-decoration: none;
-    color: white;
-    padding-right: 10px;
+    display: flex;
 }
 
-a:hover
+nav li
 {
-    color: #ffdd59;
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover
+{
+    color: #ffd32a;
+}
+
+
+/* Estilos para la sección central */
+
+.main-section
+{
+    padding: 15%;
+    text-align: center;
+}
+
+.products
+{
+    background-image: url("../images/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    
+    
+    
+}
+
+.card-products
+{
+    padding: 10px;
+    margin-top: -310px;
+
+}
+
+.card-products .content
+{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 1px #c1bcbc ;
+}
+.img-content
+{
+    text-align: center;
+}
+
+.main-button
+{
+    background-color: #3c40c6;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main-button:hover
+{
+    background-color: #292c8c;
+}
+
+.details
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.img-details
+{
+
 }
