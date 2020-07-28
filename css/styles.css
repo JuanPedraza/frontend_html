@@ -18,26 +18,38 @@
 
 html, body
 {
-    padding: 0;
     margin: 0;
-    font-size: 12px;
+    padding: 0;
     font-family: Helvetica;
+}
+
+p
+{
+    font-size: 12px;
 }
 
 nav
 {
     display: flex;
-    background-color: #575fcf;
-    padding: 10px;
-    color: white;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    width: 100%;
+    min-height: 60px;
+    background-color: #575fcf;
+    color: white;
 
 }
 
 nav ul
 {
     display: flex;
+}
+
+nav ul li
+{
+    padding-right: 20px;
+    list-style: none;
 }
 
 nav li
@@ -57,6 +69,11 @@ nav li a:hover
     color: #ffd32a;
 }
 
+hr
+{
+    opacity: .2;
+}
+
 
 /* Estilos para la sección central */
 
@@ -69,11 +86,12 @@ nav li a:hover
 .products
 {
     background-image: url("../images/curve.png");
-    max-height: 50px;
-    background-size: cover;
+    padding: 15%;
     background-position: center top;
-    padding: 20%;
+    background-repeat: no-repeat;
     display: flex;
+    height: 95px;
+    background-size: cover;
     
     
     
@@ -81,32 +99,34 @@ nav li a:hover
 
 .card-products
 {
-    padding: 10px;
-    margin-top: -310px;
-
+    padding: 20px;
+    margin-top: -226px;
 }
 
-.card-products .content
-{
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 0 1px #c1bcbc ;
-}
 .img-content
 {
     text-align: center;
 }
 
+.content
+{
+    padding: 20px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+
 .main-button
 {
-    background-color: #3c40c6;
-    color: white;
-    width: 100%;
     padding: 10px;
-    font-size: 12px;
+    background-color: #3c40c6;
+    width: 100%;
     border: 0;
-    cursor: pointer;
     border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    /* font-size: 12px; */
 }
 
 .main-button:hover
@@ -114,16 +134,75 @@ nav li a:hover
     background-color: #292c8c;
 }
 
+
+/* Estilos para la sección "características/features" */
+
+
 .details
+{
+    padding: 10%;
+    display: flex;
+}
+
+.card-details
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.img-details img
+{
+    max-height: 100px;
+}
+
+.text-details
+{
+    text-align: justify;
+}
+
+
+/* Estilos para la sección "menciones" */
+
+
+
+.title-mentions
+{
+    text-align: center;
+}
+
+
+.mentions
+{
+    display: flex;
+    padding: 5%;
+}
+.mention img
+{
+    width: 100%;
+}
+h2.mention_title
+{
+    text-align: center;
+}
+.mention
+{
+    padding: var(--space);
+}
+.content-mention
+{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text
+{
+    padding: var(--space);
+}
+
+footer
 {
     display: flex;
     justify-content: space-between;
-    padding: 0 10px 0 10px;
-    margin-top: 20px;
-    align-items: center;
-}
-
-.img-details
-{
-
+    font-size: 12px;
+    background-color: #575fcf;
+    padding: 10px;
+    color: white#575fcf;
 }
