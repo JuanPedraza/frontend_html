@@ -38,12 +38,13 @@ nav
     min-height: 60px;
     background-color: #575fcf;
     color: white;
-
+    
 }
 
 nav ul
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li
@@ -93,6 +94,7 @@ hr
     height: 95px;
     background-size: cover;
     
+    /* flex-wrap: wrap; */
     
     
 }
@@ -142,6 +144,7 @@ hr
 {
     padding: 10%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-details
@@ -175,6 +178,7 @@ hr
 {
     display: flex;
     padding: 5%;
+    flex-wrap: wrap;
 }
 .mention img
 {
