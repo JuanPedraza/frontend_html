@@ -178,7 +178,7 @@ hr
 {
     display: flex;
     padding: 5%;
-    flex-wrap: wrap;
+    flex-wrap: wrap;razón
 }
 .mention img
 {
@@ -208,5 +208,7 @@ footer
     font-size: 12px;
     background-color: #575fcf;
     padding: 10px;
-    color: white#575fcf;
+    color: white;
+    background-color: #575fcf;
 }
+
