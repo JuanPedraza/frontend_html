@@ -7,7 +7,7 @@
 .container
 {
     max-width: 900px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .row
@@ -70,14 +70,40 @@
     padding: 10px;
 }
 
-@media (max-width: 900px)
+@media (max-width: 600px)
 {
-    row
+    .container
     {
-        display: inherit;
+        padding: 30px;
+    }
+    .row
+    {
+        display: inline;
+        padding: 10px;
     }
     [class*="col-"]
     {
         width: 100%;
+        padding: 0;
     }
 }
+
+img
+{
+    width: 100%;
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.option
+{
+    padding: 10px;
+    margin: 10px;
+}
+
