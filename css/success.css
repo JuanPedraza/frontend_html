@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.picture
+{
+    width: 250px;
+    height: 200px;
+    
+}
+
+.content-pagos a
+{
+    color: yellow;
+    text-decoration: none;
+}
